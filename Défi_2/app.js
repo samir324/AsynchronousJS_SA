@@ -34,8 +34,8 @@ button2.addEventListener('click', function loadcustomers() {
                         "<li style  = 'color:#291aee'  > phone: " + "<span style  = 'color:#ef7e49' >" + ' "'+ ob1[i].phone + ' "'+"</span>"+ "</li>  " +
                         "<li style  = 'color:#291aee'  >  id: " + "<span style  = 'color:#1aee47' >" +  ob1[i].id +"</span>"+ "</li>  " +
                         '}' +"</ul>";
-                    document.getElementById('customers').innerHTML = output;
                 }
+                document.getElementById('customers').innerHTML = output;
             }
             if (xhr.status == 404) {
                 console.log("ERROR 404")
