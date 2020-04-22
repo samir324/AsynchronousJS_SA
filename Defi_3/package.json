@@ -1,11 +1,17 @@
 {
   "name": "fakeapi",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "json-server --watch db.json"
+    "jsonserver": "json-server --watch db.json",
+    "compil": "node-sass style.scss -o  css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
